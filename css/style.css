@@ -26,9 +26,9 @@ header{
 /* formattazione corpo pagina */
 .col{
     float: left;
-    background-color: #13263a;
+    background-color: #14171f;
     color: white;
-    width: calc(100% / 3 - 80px);
+    min-width: calc(100% / 3 - 80px);
     margin: 40px;
     box-shadow: 8px 8px 20px black;
 }
