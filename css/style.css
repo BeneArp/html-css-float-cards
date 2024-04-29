@@ -1,0 +1,39 @@
+/* azzeramento parametri */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* formattazione generale */
+body{
+    background-color: #fffffe;
+    font-family: 'Fredoka', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 20px auto;
+}
+
+header{
+    color: #e53170;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* formattazione corpo pagina */
+.row{
+    /* debug */
+    border: 2px solid red;
+    height: 300px;
+}
+
+.col{
+    float: left;
+    /* debug */
+    border: 2px solid green;
+    height: 60px;
+    width: calc(100% / 3 - 40px);
+    margin: 20px;
+}
