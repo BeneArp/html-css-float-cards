@@ -9,6 +9,7 @@
 body{
     background-color: #fffffe;
     font-family: 'Fredoka', sans-serif;
+    font-size: 25px;
 }
 
 .container{
@@ -29,10 +30,10 @@ header{
     color: white;
     width: calc(100% / 3 - 80px);
     margin: 40px;
+    box-shadow: 8px 8px 20px black;
 }
 
 /* formattazione cards */
-
 .col img{
     height: 200px;
     float: left;
@@ -40,8 +41,7 @@ header{
 }
 
 .info{
-    font-size: 25px;
-    margin: 30px 20px;
+    margin: 30px;
     line-height: 45px;
 }
 
@@ -54,8 +54,6 @@ header{
     color: #5cd5fb;
 }
 
-
-
 /* clear fix */
 .row::after{
     content: "";
@@ -63,8 +61,3 @@ header{
     clear: both;
 }
 
-.col::after{
-    content: "";
-    display: table;
-    clear: both;  
-}
